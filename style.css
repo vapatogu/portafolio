@@ -39,17 +39,91 @@ con una interfaz de usuario compleja, y permite la reutilización del código ex
 Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
+
+
 /*Sección Menu*/
 
+
 section.menu{
+   position: fixed;
    
+   width: 1136px;
+   height: 88px;
+   margin-left: 152px;
 }
+
+section.menu header{
+    display: inline-block;
+    width: 500px;
+}
+
+section.menu header img{
+    position: fixed;
+    display: inline-block;
+    
+    height: 24px;
+    width: 24px;
+    margin-top: 30px;
+}
+
+section.menu header h3{
+    display: inline-block;
+   
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 134px;
+}
+
+section.menu nav{
+    
+    display: inline-block;
+}
+
+section.menu nav ul{
+    display: inline-block;
+}
+
+section.menu nav ul li{
+    
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu__list__item__contato{
+    
+    display: inline-block;
+    margin-left: 50px;
+}
+
 
 /*Sección Title*/
 
-section.title{
-
+.title__div{
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 152px;
+    width: 1136px;
+    height: 368px;
+    
 }
+
+.title__container{
+    display: inline-block;
+    margin-top: 61px;
+    
+    width: 751px;
+    height: 246px;
+}
+
+.title__profile{
+    display: inline-block;
+    margin-left: 768px;
+    
+    height: 368px;
+    width: 368px;
+}
+
+
 
 /*Sección About*/
 
