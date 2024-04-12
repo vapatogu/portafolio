@@ -45,7 +45,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 
 section.menu{
-   position: fixed;
+    position: absolute;
    
    width: 1136px;
    height: 88px;
@@ -104,24 +104,27 @@ section.menu nav ul li{
     margin-left: 152px;
     width: 1136px;
     height: 368px;
-    
 }
 
 .title__container{
+    position: absolute;
     display: inline-block;
-    margin-top: 61px;
-    
     width: 751px;
     height: 246px;
+    margin-top: 61px;
 }
 
 .title__profile{
+    position: absolute;
     display: inline-block;
-    margin-left: 768px;
-    
-    height: 368px;
     width: 368px;
+    margin-left: 768px;
 }
+
+.title__network__item{
+    display: inline;
+}
+
 
 
 
