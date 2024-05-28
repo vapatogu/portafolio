@@ -1,0 +1,23 @@
+@import url("styles/reset.css");
+@import url("styles/header.css");
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    background-color: var(--cor-de-fundo) ;
+    line-height: 1;
+    font-family: 'Raleway';
+    color: #464646;
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
